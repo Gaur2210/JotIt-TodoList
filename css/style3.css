@@ -1,0 +1,227 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    background-color: rgb(225, 234, 243);
+}
+.navbar{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: rgb(185, 209, 231);
+}
+.logo{
+    height: 5rem;
+    margin: 8px 30px;
+}
+.navbar h1{
+    color:rgb(2, 39, 70);
+    letter-spacing: 3.5px;
+    font-family: 'Bubblegum Sans', cursive;
+    font-weight: bolder;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.left h1{
+    font-size: 50px;
+    font-family: 'Mukta', sans-serif;
+    color:rgb(7, 72, 124);
+    opacity: 85%;
+}
+.intro{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.profile{
+    height: 200px;
+    border-radius: 20px;
+}
+.addition{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 1rem;
+    padding-left: 1rem;
+}
+.add{
+    border: 0;
+    background: none;
+    cursor: pointer;
+}
+.add:hover{
+    opacity: 80%;
+}
+.add img{
+    height: 60px;
+}
+.insert{
+    font-size: 20px;
+    height:3rem;
+    padding-left: 10px;
+    border-radius: 8px;
+}
+
+.middle{
+    max-height: 100%;
+    max-width: 100%;
+}
+.page{
+    height: 40rem;
+    background-color: white;
+    padding: 0.5rem;
+    border: 10px solid rgb(214, 212, 212);
+    border-radius: 30px;
+    box-shadow: 8px 8px 8px 8px #00000020;
+    overflow-y:scroll;
+}
+.head{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0rem 6rem;
+}
+.head h1{
+    font-size: 4rem;
+    margin: 0px 10px;
+    font-family: 'Lilita One', cursive;
+    font-weight: lighter;
+    opacity: 70%;
+}
+.todo{
+    height:70px;
+    margin: 1rem 0.5rem;
+}
+.women{
+    margin-top:190%;
+    height: 18rem;
+    width:100%;
+    border-radius: 100%;
+    box-shadow: 10px 10px 10px 10px #00000020;
+}
+
+@media only screen and (max-width:1400px){
+    .main{
+        flex-direction: column;
+    }
+    .right{
+        display: none;
+    }
+    .todo{
+        height: 50px;
+    }
+    .head h1{
+        font-size: 40px;
+    }
+    .left h1{
+        font-size: 40px;
+    }
+    .middle{
+        margin:3rem 0;
+    }
+    .logo{
+        height:3rem;
+    }
+}
+
+@media only screen and (max-width:600px){
+    .page{
+        height: 35rem;
+        box-shadow: 6px 6px 6px 6px #00000020;
+    }
+    .add img{
+        height: 50px;
+    }
+    .insert{
+        font-size: 20px;
+        height:2rem;
+        border-radius: 6px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .head h1{
+        font-size: 20px;
+    }
+    .left h1{
+        font-size: 20px;
+    }
+    .page{
+        height: 25rem;
+        box-shadow: 3px 3px 3px 3px #00000020;
+    }
+    .add img{
+        height: 40px;
+    }
+}
+
+/* After JS Styling */
+
+.task{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 5px;
+    height: 3rem;
+    border:3px solid rgb(153, 152, 152);
+    margin: 0.3rem 0.5rem;
+}
+.text{
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 0.5rem;
+}
+.btn{
+    border: 0;
+    background-color: white;
+    cursor: pointer;
+    margin: 0.2rem;
+}
+.btn:hover{
+    opacity: 50%;
+}
+.tick{
+    height: 35px;
+}
+.cross{
+    height: 35px;
+}
+.delete{
+    height: 40px;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:0rem 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.navigate{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navigate button{
+    padding: 0.5rem;
+    margin: 0.2rem 0.2rem;
+    border: 0;
+    background-color: rgb(241, 219, 219);
+    border-radius: 10%;
+}
+
+.navigate button:hover{
+    opacity: 80%;
+}
