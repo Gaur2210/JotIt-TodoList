@@ -10,6 +10,7 @@ An easy-to-use, responsive web-based todo list app built with HTML, CSS, and Jav
 
 
 ## Features
+- Create account feature.
 - Add new tasks to the list.
 - Mark tasks as completed.
 - Delete tasks from the list.
