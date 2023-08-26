@@ -3,10 +3,10 @@ An easy-to-use, responsive web-based todo list app built with HTML, CSS, and Jav
 
 
 ## Screenshots
-![Screenshot][README img/Screenshot from 2023-08-26 13-53-43.png]
-![Screenshot][README img/Screenshot from 2023-08-26 13-54-00.png]
-![Screenshot][README img/Screenshot from 2023-08-26 14-00-58.png]
-![Screenshot][README img/Screenshot from 2023-08-26 14-01-07.png]
+![Screenshot][./README img/Screenshot from 2023-08-26 13-53-43.png]
+![Screenshot][./README img/Screenshot from 2023-08-26 13-54-00.png]
+![Screenshot][./README img/Screenshot from 2023-08-26 14-00-58.png]
+![Screenshot][./README img/Screenshot from 2023-08-26 14-01-07.png]
 
 
 ## Features
